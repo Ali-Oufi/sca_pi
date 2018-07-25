@@ -1,7 +1,6 @@
-import os
+from getpass import getpass
 
-ix = raw_input("Type a word: ")
-os.system('clear')
+ix = getpass("Type a word: ")
 length = len(ix)
 x = ix.lower()
 y = ""
